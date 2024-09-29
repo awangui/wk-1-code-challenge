@@ -20,13 +20,8 @@ Git clone https://github.com/awangui/wk-1-code-challenge.git
 
 ```
 
-# Live Link
-[Git](gh-pages link)
-
 ## Technologies used
-HTML
-CSS
-Github
+
 Javascript
 
 ## Support and contact details
