@@ -25,7 +25,7 @@ Git clone https://github.com/awangui/wk-1-code-challenge.git
 Javascript
 
 ## Support and contact details
-github.com/awangui
+https://github.com/awangui/
 
 ### License
 The content of this site is licensed under the MIT license
