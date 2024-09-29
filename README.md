@@ -1,4 +1,4 @@
-# (Project Name)
+# JavaScript code challenge
 
 #### Date, 28/09/2024
 
