@@ -3,30 +3,33 @@
 
 //asking user to enter marks
 const prompt = require('prompt-sync')();
-let marks = prompt('Enter your marks: ');
+let marks = Number(prompt('Enter your marks: '));
 //function to grade marks
 function grading(marks){
     let grade='';
 //checking if marks are valid
-    if(marks>100 || marks<0){
-        grade='Invalid marks';
+    while(marks>100 || marks<0){
+        console.log('Invalid marks');
+        marks = Number(prompt('Please enter a valid number: '));
     }
-//grading the marks
-    else if(marks>79){
-        grade='A';
-    }
-    else if(marks>=60 && marks<=79){
-        grade='B';
-    }
-    else if (marks>=49 && marks<=59){
-        grade='C';
-    }
-    else if (marks>=40 && marks<=49){
-        grade='D';
-    }
-    else {
-        grade='E';
-    }
+//grading of valid marks
+    if(marks>=0 && marks<=100){
+        if(marks>79){
+            grade='A';
+        }
+        else if(marks>=60 && marks<=79){
+            grade='B';
+        }
+        else if (marks>=49 && marks<=59){
+            grade='C';
+        }
+        else if (marks>=40 && marks<=49){
+            grade='D';
+        }
+        else if (marks<40){
+            grade='E';
+        }
+}
     return grade;
 }
 console.log('Grade: '+grading(marks));
