@@ -1,4 +1,4 @@
-# (Project Name)
+# JavaScript code challenge
 
 #### Date, 28/09/2024
 
@@ -20,17 +20,12 @@ Git clone https://github.com/awangui/wk-1-code-challenge.git
 
 ```
 
-# Live Link
-[Git](gh-pages link)
-
 ## Technologies used
-HTML
-CSS
-Github
+
 Javascript
 
 ## Support and contact details
-github.com/awangui
+https://github.com/awangui/
 
 ### License
 The content of this site is licensed under the MIT license
